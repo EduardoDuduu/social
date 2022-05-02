@@ -1,2 +1,2 @@
-# Minhas Redes Sociais
- this is my social channels.
+# Redes Sociais
+Um prototipo de site simples para pratica do CSS3 e HTML5.
