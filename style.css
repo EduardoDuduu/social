@@ -1,31 +1,82 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
 body{
-    background-color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    height: 98vh;
+    background-image: linear-gradient(to bottom, rgb(236, 142, 0), rgb(251, 255, 2));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif; color: black;
 }
-h1{
+
+main {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 10px;
     text-align: center;
-    font-size: 35px;
+    border-radius: 10px;
 }
+
+h1{
+    margin: auto;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 34px;
+}
+
 h2{
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
 }
-div {
+
+div#foto-perfil {
+    padding: 10px 0px 10px 0px;
     text-align: center;
-  }
+}
+
+img#perfil {
+    width: 150px;
+    border-radius: 50%;
+}
+
 p{
+    padding: 0px 14px 0px 14px;
     text-align: center;
 }
-a{
-    color: rgb(58, 102, 224);
+
+p#agradescer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: smaller;
+}
+
+h2.contato {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+a {
+    width: 50px;
     text-decoration: none;
 }
-ul{
-    margin-top: 35px;
+
+img.icones {
+    margin: 10px 20px;
+    width: 50px;
 }
-img{
-    border-radius: 50%;
+
+nav.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
