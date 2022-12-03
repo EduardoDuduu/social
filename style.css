@@ -46,6 +46,20 @@ div#foto-perfil {
     text-align: center;
 }
 
+div#portfolio {
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+main > div > a {
+    color: black;
+    text-decoration: underline;
+    font-size: larger;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+
 img#perfil {
     width: 150px;
     border-radius: 50%;
@@ -62,19 +76,6 @@ p#agradescer {
     font-size: smaller;
 }
 
-div#portfolio {
-    text-align: left;
-    padding-left: 10px;
-    padding-bottom: 20px;
-}
-
-main > div > a {
-    color: black;
-    text-decoration: underline;
-    font-size: larger;
-    font-variant: small-caps;
-    font-weight: bolder;
-}
 
 a {
     width: 50px;
