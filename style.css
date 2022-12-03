@@ -5,8 +5,6 @@
     padding: 0px;
 }
 
-
-
 body{
     height: 98vh;
     background-image: linear-gradient(to bottom, rgb(236, 142, 0), rgb(251, 255, 2));
@@ -38,6 +36,11 @@ h2{
     font-size: 24px;
 }
 
+h2.contato {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
 div#foto-perfil {
     padding: 10px 0px 10px 0px;
     text-align: center;
@@ -59,9 +62,18 @@ p#agradescer {
     font-size: smaller;
 }
 
-h2.contato {
-    padding-top: 50px;
-    padding-bottom: 25px;
+div#portfolio {
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+main > div > a {
+    color: black;
+    text-decoration: underline;
+    font-size: larger;
+    font-variant: small-caps;
+    font-weight: bolder;
 }
 
 a {
