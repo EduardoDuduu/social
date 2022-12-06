@@ -75,6 +75,22 @@ p#agradescer {
     padding-bottom: 10px;
     font-size: smaller;
 }
+p#link-portfolio {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 4px 0px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+p#link-portfolio > a {
+    text-decoration: none;
+    color: white;
+}
 
 
 a {
