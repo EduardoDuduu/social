@@ -5,8 +5,8 @@
     padding: 0px;
 }
 
-body{
-    height: 98vh;
+html, body{
+    height: 99vh;
     background-image: linear-gradient(to bottom, rgb(236, 142, 0), rgb(251, 255, 2));
     background-position: center center;
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@ main {
     background-color: white;
     max-width: 600px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: center;
     border-radius: 10px;
 }
@@ -37,7 +37,7 @@ h2{
 }
 
 h2.contato {
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 25px;
 }
 
@@ -70,17 +70,14 @@ p{
     text-align: center;
 }
 
-p#agradescer {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: smaller;
-}
 p#link-portfolio {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     text-align: center;
+    display: block;
     width: 200px;
     margin: auto;
+    margin-top: 40px;
     margin-bottom: 20px;
     padding: 4px 0px;
     border-radius: 15px;
@@ -92,15 +89,20 @@ p#link-portfolio > a {
     color: white;
 }
 
-
 a {
     width: 50px;
     text-decoration: none;
 }
 
 img.icones {
-    margin: 10px 20px;
+    margin: 5px 20px;
     width: 50px;
+}
+
+p#agradescer {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: smaller;
 }
 
 nav.conteiner{
