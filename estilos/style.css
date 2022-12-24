@@ -1,55 +1,49 @@
 @charset "UTF-8";
 
+/*
+  Mobile Fist
+---------------
+*/
+
+
 * {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: black;
     margin: 0px;
     padding: 0px;
 }
 
 html, body{
     height: 99vh;
-    background-image: linear-gradient(to bottom, rgb(236, 142, 0), rgb(251, 255, 2));
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: Arial, Helvetica, sans-serif; color: black;
+    background-color: rgb(236, 142, 0);
 }
 
 main {
     background-color: white;
     max-width: 600px;
     margin: auto;
-    margin-top: 5px;
     text-align: center;
-    border-radius: 10px;
 }
 
 h1{
-    margin: auto;
+    text-align: center;
     padding-top: 4px;
     padding-bottom: 4px;
-    font-size: 34px;
+    font-size: 1.7em;
 }
 
 h2{
     text-align: center;
-    font-size: 24px;
+    font-size: 1.3em;
 }
 
 h2.contato {
     padding-top: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 div#foto-perfil {
     padding: 10px 0px 10px 0px;
     text-align: center;
-}
-
-div#portfolio {
-    text-align: left;
-    padding-left: 10px;
-    padding-bottom: 20px;
 }
 
 main > div > a {
@@ -66,8 +60,12 @@ img#perfil {
 }
 
 p{
-    padding: 0px 14px 0px 14px;
-    text-align: center;
+    font-size: 13pt;
+    text-align: justify;
+    padding: 0px 10px;
+    max-width: 550px;
+    display: block;
+    margin: auto;
 }
 
 p#link-portfolio {
@@ -89,9 +87,20 @@ p#link-portfolio > a {
     color: white;
 }
 
+nav.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 a {
     width: 50px;
     text-decoration: none;
+}
+
+p.txticon {
+    text-align: center;
 }
 
 img.icones {
@@ -100,14 +109,8 @@ img.icones {
 }
 
 p#agradescer {
+    text-align: center;
+    font-size: smaller;
     padding-top: 15px;
     padding-bottom: 10px;
-    font-size: smaller;
-}
-
-nav.conteiner{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
